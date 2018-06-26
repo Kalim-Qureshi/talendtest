@@ -8,17 +8,14 @@
     <version>7.0.1</version>
     <relativePath>../../</relativePath>
   </parent>
-  
+  <groupId>org.example.local_project.code</groupId>
+		  <artifactId>routines</artifactId>
+		  <version>7.0.1</version>
   <name>LOCAL_PROJECT Routines</name>
   <properties>
     <talend.codes.package>routines</talend.codes.package>
   </properties>
   <dependencies>
-	  <dependency>
-		  <groupId>org.example.local_project.code</groupId>
-		  <artifactId>routines</artifactId>
-		  <version>7.0.1</version>
-	  </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>log4j-1.2.16</artifactId>
@@ -30,4 +27,39 @@
       <version>6.0.0</version>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <includes>
+            <include>${talend.codes.package}/**/*.java</include>
+          </includes>
+          <testExcludes>
+            <exclude>**</exclude>
+          </testExcludes>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <includes>
+            <include>${talend.codes.package}/**/*.class</include>
+          </includes>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
