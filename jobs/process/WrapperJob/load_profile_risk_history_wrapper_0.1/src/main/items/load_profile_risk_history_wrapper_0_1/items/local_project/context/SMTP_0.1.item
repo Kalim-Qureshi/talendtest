@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_yWdP0G_NEeiK15BVJZAM4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_yWdP0W_NEeiK15BVJZAM4g" comment="" name="SMTP_From_Name" prompt="SMTP_From_Name?" promptNeeded="false" type="id_String" value="DevOps-Support@continuum.net"/>
+  <contextParameter xmi:id="_yWdP0m_NEeiK15BVJZAM4g" comment="" name="SMTP_MailServer" prompt="SMTP_MailServer?" promptNeeded="false" type="id_String" value="smtp.office365.com"/>
+  <contextParameter xmi:id="_yWdP02_NEeiK15BVJZAM4g" comment="" name="SMTP_To_Name" prompt="SMTP_To_Name?" promptNeeded="false" type="id_String" value="karan.pandit@continuum.net"/>
+  <contextParameter xmi:id="_yWdP1G_NEeiK15BVJZAM4g" comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" type="id_String" value="587"/>
+  <contextParameter xmi:id="_yWdP1W_NEeiK15BVJZAM4g" comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" type="id_String" value="DevOps-Support@continuum.net"/>
+  <contextParameter xmi:id="_yWdP1m_NEeiK15BVJZAM4g" comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" type="id_Password" value="JW6AUagoy4HWdlkPirdmPKDASh6GEqVYyBx/50dU+6A="/>
+</talendfile:ContextType>

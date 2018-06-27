@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_yVY40G_NEeiK15BVJZAM4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_yVY40W_NEeiK15BVJZAM4g" comment="" name="SF_BI_STAGING_JDBCUrl" prompt="SF_BI_STAGING_JDBCUrl?" promptNeeded="false" type="id_String" value="jdbc:snowflake://continuum.snowflakecomputing.com/?account=continuum&amp;warehouse=dt_wh&amp;db=dt_bi_staging&amp;schema=stg"/>
+  <contextParameter xmi:id="_yVY40m_NEeiK15BVJZAM4g" comment="" name="SF_BI_STAGING_DriverClass" prompt="SF_BI_STAGING_DriverClass?" promptNeeded="false" type="id_String" value="net.snowflake.client.jdbc.SnowflakeDriver"/>
+  <contextParameter xmi:id="_yVY402_NEeiK15BVJZAM4g" comment="" name="SF_BI_STAGING_Username" prompt="SF_BI_STAGING_Username?" promptNeeded="false" type="id_String" value="dtuser"/>
+  <contextParameter xmi:id="_yVY41G_NEeiK15BVJZAM4g" comment="" name="SF_BI_STAGING_Password" prompt="SF_BI_STAGING_Password?" promptNeeded="false" type="id_Password" value="LTTtxCJOf6bphx/i9TQYynvQQGv0yHXg"/>
+  <contextParameter xmi:id="_yVY41W_NEeiK15BVJZAM4g" comment="" name="SF_BI_STAGING_DatabaseName" prompt="SF_BI_STAGING_DatabaseName?" promptNeeded="false" type="id_String" value="DT_BI_STAGING"/>
+</talendfile:ContextType>
