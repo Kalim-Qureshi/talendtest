@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_yS17IG_NEeiK15BVJZAM4g" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_yS17IW_NEeiK15BVJZAM4g" comment="" name="Cassandra_Host" prompt="Cassandra_Host?" promptNeeded="false" type="id_String" value="&quot;172.28.49.15&quot;"/>
-  <contextParameter xmi:id="_yS17Im_NEeiK15BVJZAM4g" comment="" name="Cassandra_Port" prompt="Cassandra_Port?" promptNeeded="false" type="id_Integer" value="9042"/>
-  <contextParameter xmi:id="_yS17I2_NEeiK15BVJZAM4g" comment="" name="Cassandra_Username" prompt="Cassandra_Username?" promptNeeded="false" type="id_String" value="&quot;enggawsuser&quot;"/>
-  <contextParameter xmi:id="_yS17JG_NEeiK15BVJZAM4g" comment="" name="Cassandra_Password" prompt="Cassandra_Password?" promptNeeded="false" type="id_Password" value="7S5d51S1ByiY45xCZerf3bBzIyItbcvQ"/>
-</talendfile:ContextType>
